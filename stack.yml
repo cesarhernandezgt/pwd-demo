@@ -4,6 +4,7 @@ services:
 
     demo:
         image: tomitribe/demo-dynproperty
+        hostname: cesarhost
         ports:
             - 8080:8080
 
