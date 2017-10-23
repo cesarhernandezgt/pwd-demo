@@ -8,5 +8,8 @@ services:
         ports:
             - 8080:8080
 
-    elasticsearch:
-        image: elasticsearch
+    demo2:
+        image: tomitribe/demo-dynproperty
+        hostname: 'thiagohost'
+        ports:
+            - 8181:8080
