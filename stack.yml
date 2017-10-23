@@ -2,10 +2,10 @@ version: '3.1'
 
 services:
 
-    kibana:
-        image: kibana
+    demo:
+        image: tomitribe/demo-dynproperty
         ports:
-            - 5601:5601
+            - 8080:8080
 
     elasticsearch:
         image: elasticsearch
