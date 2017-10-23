@@ -4,12 +4,12 @@ services:
 
     demo:
         image: tomitribe/demo-dynproperty
-        hostname: 'cesarhost'
+        hostname: 'cesar-host'
         ports:
             - 8080:8080
 
     demo2:
         image: tomitribe/demo-dynproperty
-        hostname: 'thiagohost'
+        hostname: 'thiago-host'
         ports:
             - 8081:8080
